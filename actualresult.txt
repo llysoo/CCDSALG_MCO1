@@ -1,0 +1,50 @@
+Postfix: 7 5 * 6 * 4 *
+Result: 840
+Postfix: 25 50 10 5 + / +
+Result: 28
+Postfix: 4 8 + 3 7 + *
+Result: 120
+Postfix: 100 30 2 3 2 ^ * / -
+Result: 99
+Postfix: 15 5 + 4 / 10 * 20 +
+Result: 70
+Postfix: 12 8 + 5 * 30 10 - 6 4 + * -
+Result: -100
+Postfix: 10 20 + 2 * 40 5 3 4 * + / + 7 -
+Result: 55
+Postfix: 1 0 && 1 || 15 10 > ! ||
+Evaluation: 1
+Postfix: 1 5 10 < 10 15 > || ! && ! 10 20 < ||
+Result: 1
+Postfix: 50 100 5 4 * - 2 / + 30 + 40 8 / -
+Result: 115
+Postfix: 3 8 * 24 + 6 / 18 9 7 + / -
+Result: 7
+Postfix: 200 50 - 10 12 8 4 / + 6 - * - 20 -
+Result: 50
+Postfix: 6 7 * 8 / 15 10 + 12 14 2 / * -
+Result: -54
+Postfix: 8 2 % 5 * 2 13 + 5 / - 2 6 % +
+Result: -1
+Postfix: 5 3 * 2 - / 3 4 + / 5 *
+Result: -5
+Postfix: 7 8 + 3 2 + /
+Result: 3
+Postfix: 17 10 + 3 * 9 /
+Result: 9
+Postfix: 10 6 - 2 * 3 8 - * / + 5 -
+Result: 5
+Postfix: 2 - 8 + 3 % 5 * 9 7 - + +
+Result: 2
+Postfix: 1 - 2 + 3 4 - 5 * 6 7 % / -
+Result: 0
+Postfix: 10 3 5 * 16 4 - / +
+Result: 11
+Postfix: 11 20 10 / 4 - 2 / +
+Result: 10
+Postfix: 7 6 - 5 4 3 + * + 2 1 + -
+Result: 33
+Postfix: 3 8 + 2 5 * - 7 2 ^ 26 * 3 / 7 / 4 * + 2 +
+Result: 243
+Postfix: 10 5 + 60 6 / * 8 -
+Result: 142
